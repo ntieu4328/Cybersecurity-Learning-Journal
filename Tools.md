@@ -1,5 +1,12 @@
 <h1>Tools</h1>
 
+NMAP - tool used for network discovery (enumeration). Find devices on network, check open/closed ports on target, services, OS version, vulnerability scanning, firewall detection, etc.
+* ex: nmap --script=(script name) -Pn -sX -p1-999 (IP address)
+* --script vuln - scans vulnerabilities
+* -p- - scans all ports
+* -T(0-5) - timing template. 0-5 slowest to fastest. Can speed up nmap.
+* -sV - probe open ports to determine service/version info
+
 Elastic - cybersecurity threat detection, investigation, and response platform
 * learned how to filter for specific events and information
 * can use KQL (Kibana Query Language) to search
