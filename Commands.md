@@ -21,6 +21,8 @@ Kali Linux:
 * git clone - download an existing Git repository
 * cp (original file name) (new file name) - creates duplicate of file. Can be used to change file type (ex: .php -> .php5)
 * curl http://(ip) > (desired file) - transfer data from a website to a desired file
+* [RDP](https://github.com/ntieu4328/TryHackMe/blob/main/How%20to%20RDP%20Into%20Machine.md) - allows user to remotely access and control another computer over a network connection
+* [SSH](https://github.com/ntieu4328/TryHackMe/blob/main/How%20to%20SSH%20Into%20Machine.md) - log onto remote systems on a command line interface
 
 PowerShell:
 * Select-String - find string in file (PowerShell grep equivalent)
