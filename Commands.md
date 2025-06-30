@@ -1,6 +1,17 @@
 <h1>Commands</h1>
 
 Kali Linux:
+* echo - prints text
+* whoami - shows current username
+* ls - list files/directories
+* cd - change directory
+* cat - show file contents
+* find - search for files
+* grep - search for something in file
+* & - run commands in background
+* && - chain commands
+* ">" - overwrite output
+* ">>" - append output
 * file - determines the type of file and its data
 * exiftool - software used for reading, writing, and editing metadata
 * cat etc/passwd - see what user's shell is set as
