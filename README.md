@@ -5,6 +5,6 @@
 A journal to keep track of all tools, commands, vulnerabilities, information, etc. pertaining to what I've learned about cybersecurity.
 
 Topic:
-Tools
-Commands
-Vulnerabilities
+* [Tools](https://github.com/ntieu4328/Cybersecurity-Learning-Journal/blob/main/Tools.md)
+* [Commands](https://github.com/ntieu4328/Cybersecurity-Learning-Journal/blob/main/Commands.md)
+* [Vulnerabilities](https://github.com/ntieu4328/Cybersecurity-Learning-Journal/blob/main/Vulnerabilities.md)
