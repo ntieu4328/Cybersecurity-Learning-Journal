@@ -13,6 +13,7 @@ Elastic - cybersecurity threat detection, investigation, and response platform
 
 Splunk - data platform that collects, indexes, and analyzes machine-generated data to provide insights on security, it operations, business analytics
 * index=(database) - search a specific database or even logs. can put * to search all databases and event logs
+* *(value)* - wildcard search. Match text anywhere within a field value
 
 CyberChef - simple and complex data manipulation
 * decode encoded data
