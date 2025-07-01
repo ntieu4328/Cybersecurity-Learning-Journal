@@ -11,6 +11,9 @@ Elastic - cybersecurity threat detection, investigation, and response platform
 * learned how to filter for specific events and information
 * can use KQL (Kibana Query Language) to search
 
+Splunk - data platform that collects, indexes, and analyzes machine-generated data to provide insights on security, it operations, business analytics
+* index=(database) - search a specific database or even logs. can put * to search all databases and event logs
+
 CyberChef - simple and complex data manipulation
 * decode encoded data
 
