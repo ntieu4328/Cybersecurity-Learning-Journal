@@ -104,6 +104,7 @@ Robots.txt
 GoBuster:
 * tool used to brute-force websites
 * ex: `gobuster dir -u http://(ip) -w (wordlist path)`
+ * can add port ex: `http://(ip):(port)`
 * wordlist path - /usr/share/wordlists
 
 If you are able to edit .php file on website:
