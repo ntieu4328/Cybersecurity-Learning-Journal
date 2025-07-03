@@ -25,6 +25,7 @@ Kali Linux:
 * [SSH](https://github.com/ntieu4328/TryHackMe/blob/main/How%20to%20SSH%20Into%20Machine.md) - log onto remote systems on a command line interface
 
 PowerShell:
+* history found C:/Users/(user)/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine/ConsoleHost_history
 * Select-String - find string in file (PowerShell grep equivalent)
   * `Select-String -Path "(file path)" '(string)'`
  
