@@ -30,6 +30,24 @@ Atomic Red - collection of red team test cases that can be executed to test for 
   -cleanup: clean up artifacts from the test
 
 Event Viewer - Windows tool that displays information about significant events happening on computer
+* can open with Win+R -> eventvwr
+* 4720/2722/4738 - user account created/enabled/changed
+* 4725/4726 - user account disabled/deleted
+* 4723/4724 - changed password/reset password
+* 4732/4733 - user add/removed from security group
+* 4688 - log event everytime new process launched
+* 1 - replace 4688 event code and provide more advanced fields
+* 11/13 - file create/registry value set
+* 4656/4657 (disabled by default) - file changes/registry changes
+* 3/22 - network connection/dns query
+* Event ID 4624 - successful logon
+* Event ID 4625 - failed logon
+* RDP Brute Force indicators:
+  * look out for logon type 3 and 10
+  * attempted users like admin, helpdesk, and cctv
+  * many login failures on an account (usually Administrator)
+  * workstation name doesn't match corporate pattern
+  * unexpected connections
 
 Burp Suite - Web application security testing and penetration testing. Intercepting, analyzing and modifying network traffic
 * Set up intercepting and modifying website requests:
