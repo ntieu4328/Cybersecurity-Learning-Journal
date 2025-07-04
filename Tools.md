@@ -7,6 +7,13 @@ NMAP - tool used for network discovery (enumeration). Find devices on network, c
 * -T(0-5) - timing template. 0-5 slowest to fastest. Can speed up nmap.
 * -sV - probe open ports to determine service/version info
 
+Active Directory - centralized database and services that organize, manage, and secure network resources
+* Advanced features - provides access to hidden containerrs, tabs, and attributes, allowing administrators to manage more complex settings and properties of active directory objects
+  * View -> Advanced Features
+* When deleting part of directory: right click directory -> properties -> Object -> uncheck protect object from accidental deletion
+* Delegation - give specific users control over other directories
+  * right click directory that you want to delegate -> delegate control -> next -> add -> Enter the object names to select (username) -> check names -> Next -> select options -> next -> finish
+
 Elastic - cybersecurity threat detection, investigation, and response platform
 * learned how to filter for specific events and information
 * can use KQL (Kibana Query Language) to search
@@ -84,6 +91,9 @@ Risk Assessment - identify potential problems before they happen
 
 Group Policy Management Editor - allows administrators to enforce policies across domain
 * open with windows + r -> gpmc.msc
+* group policies created under Group Policy Objects
+* Group Policy Objects linked to organizational unit
+* to update GPO immediatly: Powershell -> gpupdate /force
 
 Azure - secure, detect, prevent, and respond to threats across cloud and on premise environments
 
