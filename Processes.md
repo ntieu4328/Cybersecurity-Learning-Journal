@@ -2,9 +2,13 @@
 
 Enumeration:
 * nmap the IP to look for open ports and versions of them
-* `nmap -sP (IP)/24` - scan devices on network
- * can find network ip with cmd -> ipconfig -> default gateway
+* `nmap -sP (IP)/24` - ping scan devices on network
+ * can find network ip with cmd -> ipconfig -> default gateway or ip route
 * unknown or Amazon devices can be personal important devices
+
+Iphone
+* `nmap -sP (IP)/24` - shows unknown or amazon devices
+* `nmap -sS (IP)/24` - shows iphone sync port
 
 Enumeration of website:
 * gobuster website to look for directories
