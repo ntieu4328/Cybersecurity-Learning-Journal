@@ -2,6 +2,9 @@
 
 Enumeration:
 * nmap the IP to look for open ports and versions of them
+* `nmap -sP (IP)/24` - scan devices on network
+ * can find network ip with cmd -> ipconfig -> default gateway
+* unknown or Amazon devices can be personal important devices
 
 Enumeration of website:
 * gobuster website to look for directories
