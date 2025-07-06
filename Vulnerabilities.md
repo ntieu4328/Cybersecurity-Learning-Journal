@@ -48,7 +48,8 @@ Wifi Attacks:
 * sudo wpa_supplicant -B -c config -i wlan2
 
 Local DNS Override:
-* Add website to/etc/hosts
+* if website doesn't open try this
+* Add website to /etc/hosts
 * Doesn't alert external DNS servers
 * Also may show that website uses self-signed certificate
 * `echo "(Website IP) (website)" >> /etc/hosts`
