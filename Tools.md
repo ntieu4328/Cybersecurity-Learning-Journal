@@ -16,6 +16,8 @@ Active Directory - centralized database and services that organize, manage, and 
 
 wpscan - scan WordPress websites for security vulnerabilities
 
+netdiscover - scans local network and shows ip addresses, mac addresses, device vendors
+
 Elastic - cybersecurity threat detection, investigation, and response platform
 * learned how to filter for specific events and information
 * can use KQL (Kibana Query Language) to search
