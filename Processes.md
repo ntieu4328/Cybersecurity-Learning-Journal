@@ -15,3 +15,9 @@ Enumeration of website:
 * Look up vulnerabilities of what is powering website icluding version of it
 * can also see if open ports give you anything in search bar
   * ex: (IP):(port)
+
+Enumeration in Linux terminal:
+env -
+hostname
+uname -a
+lsb_release -a -
