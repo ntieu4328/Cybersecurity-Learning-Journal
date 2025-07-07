@@ -14,6 +14,8 @@ Active Directory - centralized database and services that organize, manage, and 
 * Delegation - give specific users control over other directories
   * right click directory that you want to delegate -> delegate control -> next -> add -> Enter the object names to select (username) -> check names -> Next -> select options -> next -> finish
 
+wpscan - scan WordPress websites for security vulnerabilities
+
 Elastic - cybersecurity threat detection, investigation, and response platform
 * learned how to filter for specific events and information
 * can use KQL (Kibana Query Language) to search
